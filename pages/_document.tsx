@@ -1,0 +1,68 @@
+import Document, { Html, Head, Main, NextScript } from "next/document";
+class MyDocument extends Document {
+    render() {
+        return (
+            <Html lang={process.env.NEXT_PUBLIC_DEFAULT_LOCALE}>
+                <Head>
+                    <link
+                        rel="apple-touch-icon"
+                        sizes="72x72"
+                        href="/static/favicons/icon-72x72.png"
+                    />
+                    <link
+                        rel="icon"
+                        type="image/png"
+                        sizes="48x48"
+                        href="/static/favicons/icon-48x48.png"
+                    />
+                    <link
+                        rel="icon"
+                        type="image/jpg"
+                        sizes="96x96"
+                        href="/static/favicons/icon-96x96.png"
+                    />
+                    <link
+                        rel="manifest"
+                        href="/static/favicons/site.webmanifest"
+                    />
+                    <link
+                        rel="mask-icon"
+                        href="/static/favicons/hat.png"
+                        color="#fff"
+                    />
+                    <meta name="msapplication-TileColor" content="#000000" />
+                    <meta name="theme-color" content="#000000" />
+                    <link
+                        rel="alternate"
+                        type="application/rss+xml"
+                        href="/feed.xml"
+                    />
+
+                    <link
+                        rel="preconnect"
+                        href="https://fonts.googleapis.com"
+                    />
+                    <link
+                        rel="preconnect"
+                        href="https://fonts.gstatic.com"
+                        crossOrigin="anonymous"
+                    />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap"
+                        rel="stylesheet"
+                    />
+                    <link
+                        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
+                        rel="stylesheet"
+                    />
+                </Head>
+                <body className="bg-white text-black antialiased dark:bg-dark dark:text-white">
+                    <Main />
+                    <NextScript />
+                </body>
+            </Html>
+        );
+    }
+}
+
+export default MyDocument;
