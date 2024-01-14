@@ -11,7 +11,7 @@ export let siteMetadata = {
     youtube: "https://www.youtube.com/@anirudhology",
     linkedin: "https://www.linkedin.com/in/anirshar/",
     locale: "en-US",
-    analyticsURL: "https://analytics.leohuynh.dev/share/jkwRskv0/leohuynh.dev",
+    analyticsURL: "", // To be updated
     analytics: {
         plausibleDataDomain: "",
         simpleAnalytics: false, // true | false

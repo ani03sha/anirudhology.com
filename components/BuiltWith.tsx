@@ -12,20 +12,20 @@ export function BuiltWith() {
                 {t("build_with.built_with")}
             </span>
             <div className="flex space-x-1.5">
-                <Link href="https://nextjs.org?ref=leohuynh.dev">
+                <Link href="https://nextjs.org?ref=anirudhology.com">
                     <BrandIcon type="NextJS" className="h-5 w-5" />
                 </Link>
-                <Link href="https://tailwindcss.com?ref=leohuynh.dev">
+                <Link href="https://tailwindcss.com?ref=anirudhology.com">
                     <BrandIcon type="TailwindCSS" className="h-5 w-5" />
                 </Link>
-                <Link href="https://www.prisma.io?ref=leohuynh.dev">
+                <Link href="https://www.prisma.io?ref=anirudhology.com">
                     <BrandIcon type="Prisma" className="h-5 w-5" />
                 </Link>
-                <Link href="https://www.typescriptlang.org?ref=leohuynh.dev">
+                <Link href="https://www.typescriptlang.org?ref=anirudhology.com">
                     <BrandIcon type="Typescript" className="h-5 w-5" />
                 </Link>
                 <Link
-                    href="https://umami.is?ref=leohuynh.dev"
+                    href="https://umami.is?ref=anirudhology.com"
                     className="pl-px"
                 >
                     <BrandIcon type="Umami" className="h-5 w-5" />

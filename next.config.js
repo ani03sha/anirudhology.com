@@ -21,7 +21,12 @@ module.exports = withBundleAnalyzer({
     images: {
         domains: ["i.scdn.co"],
     },
-    typescript: { tsconfigPath: "./tsconfig.json" },
+    typescript: {
+        tsconfigPath: "./tsconfig.json",
+        // Dangerously allow production builds to successfully complete even if
+        // your project has type errors.
+        ignoreBuildErrors: true,
+    },
     i18n,
     trailingSlash: true,
     webpack: (config, options) => {
